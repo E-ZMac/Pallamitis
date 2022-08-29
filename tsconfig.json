@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "emitDeclarationOnly": true,
+        "isolatedModules": true,
+        "target": "es2016",
+        "jsx": "preserve",
+        "module": "commonjs",
+        "resolveJsonModule": true,
+        "allowJs": true,
+        "checkJs": true,
+        "declaration": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "skipLibCheck": true
+    },
+    "include": ["**/*.ts", "**/*.tsx", "jest.config.ts", "src", "babel.config.js"],
+    "exclude": ["node_modules", "cypress", "__tests__", "__mock__"]
+}
