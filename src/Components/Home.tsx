@@ -1,4 +1,4 @@
-import { Typography } from "@mui/material"
+import { Typography, Paper } from "@mui/material"
 
 
 
@@ -7,7 +7,9 @@ const Home = () => {
 
     return (
         <>
-            <Typography>Welcome to Palamitis</Typography>
+            <Paper>
+                <Typography variant="h2" sx={{ display: "flex", justifyContent: "center"}}>Welcome to Palamitis</Typography>
+            </Paper>
         </>
     )
 }
